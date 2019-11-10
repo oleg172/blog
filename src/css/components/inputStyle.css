@@ -1,0 +1,35 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input {
+    display: block;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input.error {
+    border-color: red;
+}
+
+input::placeholder {
+    font-size: 0.7em;
+    font-weight: lighter;
+    color: #bbb;
+}
+
+label {
+    color: #444;
+    font-weight: bold;
+    
+}
+
+.error {
+    color:#db2269;
+    display: relative;
+  }
